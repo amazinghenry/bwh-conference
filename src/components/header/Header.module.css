@@ -1,0 +1,98 @@
+header {
+    background-image: url('/src/assets/header-bg.jpg');
+    background-color: #3E0C99;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode: multiply; */
+    color: #fff;
+    padding: 40px 0;
+    height: 50vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.HeaderTitle {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: aqua;
+    font-family: "Poppins", sans-serif;
+}
+
+.Theme {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(255, 234, 0);
+    margin-bottom: 20px;
+    font-family: "Anton", sans-serif;
+}
+
+.Theme::before {
+    content: 'Theme ▼';
+    color: #fff;
+    display: block;
+    font-size: 0.8rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.Date {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.Venue {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.HeaderRegisterButton {
+    margin-top: 20px;
+    display: block;
+    background-color: var(--sec-clr-);
+    color: #fff;
+    font-weight: 600;
+    width: max-content;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.HeaderRegisterButton:hover {
+    background-color:#fff ;
+    color: var(--pri-clr-);
+} 
+
+.HeaderButterfly {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 300px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .HeaderTitle {
+        font-size: 1.5rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .Theme {
+        font-size: 2rem;
+    }
+    
+    .Date, .Venue  {
+        font-size: 1rem;
+    }
+
+    .HeaderButterfly {
+        width: 150px;
+    }
+}

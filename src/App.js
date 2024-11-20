@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { BrowserRouter} from 'react-router-dom';
+import About from './components/about/About';
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
+import Features from './components/features/Features';
+import Header from './components/header/Header';
+import Topics from './components/topics/Topics';
+import SpeakerList from './components/speakers/SpeakerList';
+import EventGalleryList from './components/eventgallery/EventGalleryList';
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Navbar />
+    <Header />
+    <About />
+    <Features />
+    <Topics />
+    <SpeakerList heading = { "Speakers" } />
+    <EventGalleryList />
+    <Footer />
+    </BrowserRouter>
   );
 }
 

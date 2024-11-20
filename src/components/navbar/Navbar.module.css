@@ -1,0 +1,35 @@
+nav {
+    padding: 8px;
+    background-color: #3E0C99;
+}
+
+.MainLogo {
+    width: 60px;
+}
+
+.LinkItem {
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.LinkItem:hover {
+    font-size: 1.5rem;
+}
+
+
+#register {
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 760px) {
+    .LinkItem {
+        display: none;
+    }
+}

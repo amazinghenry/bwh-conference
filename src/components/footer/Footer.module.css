@@ -1,0 +1,15 @@
+footer {
+    padding: 60px 0;
+    background-color: #00434f;
+    text-align: center;
+    color: aquamarine;
+}
+
+.FooterTitle {
+    font-weight: 700;
+}
+
+.FooterItem {
+    color: #fff;
+    font-size: 0.8rem;
+}

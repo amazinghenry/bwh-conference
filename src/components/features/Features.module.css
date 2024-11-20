@@ -1,0 +1,36 @@
+.Features {
+    padding: 40px 0;
+    background-color: var(--pri-clr-);
+}
+
+.Features h2 {
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.FeatureGroup {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+
+}
+
+.FeatureItem {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+    flex: 1;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.FeatureItem img {
+    width: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .FeatureGroup {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,44 @@
+.AboutContainer {
+    padding: 60px 0;
+}
+
+.AboutText h2 {
+    font-weight: 800;
+    color: var(--pri-clr-);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.AboutRegisterButton {
+    margin-top: 20px;
+    display: block;
+    color: #fff;
+    font-weight: 400;
+    width: max-content;
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.VideoStyle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.VideoContainer {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .AboutContainer {
+        padding: 60px 20px;
+    }
+}

@@ -1,0 +1,64 @@
+.Speakers {
+    padding:40px;
+}
+
+.Speakers h2 {
+    font-weight: 800;
+    color: var(--pri-clr-);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.SpeakerGroup {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.SpeakerItem {
+    width: 200px;
+    color: rgb(54, 54, 54);
+}
+
+.SpeakerItem img {
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+
+.SpeakerInfo {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.SpeakerTitle {
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--sec-clr-);
+}
+
+.SpeakerPosition {
+    color: #436ACB;
+}
+
+
+@media screen and (max-width: 768px ) {
+    .Speakers{
+        padding:40px 20px;
+    }
+    .SpeakerItem {
+        width: 100%;
+    }
+    .SpeakerGroup {
+       grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width: 425px ) {
+    .SpeakerGroup {
+       grid-template-columns: 1fr;
+    }
+}

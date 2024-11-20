@@ -1,0 +1,21 @@
+.Topics {
+    padding: 60px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.Topics h2 {
+    font-weight: 800;
+    color: var(--pri-clr-);
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Topics {
+        padding: 60px 20px;
+    }
+}
