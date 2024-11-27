@@ -14,7 +14,7 @@ const Navbar = () => {
                     <a href="#speakers" className={` text-light mx-2 ${styles.LinkItem}`}>Speakers</a>
                     <a href="#agenda" className={` text-light mx-2 ${styles.LinkItem}`}>Agenda</a>
             </div>
-                <a className = {`btn btn-primary`} href="https://bit.ly/BWHConference2024" target="_blank" rel="noreferrer" id="register">Register Now</a>
+                <a className = {`btn btn-primary`} href="https://forms.gle/7jYNYJfbQCfMsLy17" target="_blank" rel="noreferrer" id="register">Register Now</a>
             </div>
 
             

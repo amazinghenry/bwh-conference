@@ -9,6 +9,7 @@ import Header from './components/header/Header';
 import Topics from './components/topics/Topics';
 import SpeakerList from './components/speakers/SpeakerList';
 import EventGalleryList from './components/eventgallery/EventGalleryList';
+import Exhibition from './components/exhibition/Exhibition';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
     <Topics />
     <SpeakerList heading = { "Speakers" } />
     <EventGalleryList />
+    <Exhibition />
     <Footer />
     </BrowserRouter>
   );

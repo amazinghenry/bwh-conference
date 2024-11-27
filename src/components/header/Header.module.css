@@ -6,15 +6,18 @@ header {
     background-size: cover;
     /* background-blend-mode: multiply; */
     color: #fff;
-    padding: 40px 0;
-    height: 50vh;
+    padding: 100px 20px;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
+.headerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
-    position: relative;
+    align-items: center;
+}
+
+.headerContainer img {
+    justify-self: end;
 }
 
 .HeaderTitle {
@@ -79,6 +82,14 @@ header {
 
 
 @media screen and (max-width: 768px) {
+    .headerContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .headerContainer img {
+        justify-self: center;
+    }
+
     .HeaderTitle {
         font-size: 1.5rem;
         font-family: 'Poppins', sans-serif;

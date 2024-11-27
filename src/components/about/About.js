@@ -6,7 +6,6 @@ const About = () => {
             <div className={styles.VideoContainer}>
             <iframe 
                 src="https://www.youtube.com/embed/fm81ivI0xoQ?si=qXYV31fhfvxKTEsj" 
-                // style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
                 className={styles.VideoStyle}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -26,11 +25,11 @@ const About = () => {
                 Why are we doing this? Globally, women are gradually taking their place in business in Africa via technology and new media, particularly in Nigeria. Though, not at a fast pace. We hope to speed this up by encouraging women to break the stereotypical African woman's status and venture into different business sectors.
                 </p>
                 <div className="d-flex justify-content-center align-items-center">
-                    <a href="https://bit.ly/BWHConference2024" target="_blank" rel="noreferrer" className ={`btn btn-primary d-block w-auto`}>Register Now</a>
+                    <a href="https://forms.gle/7jYNYJfbQCfMsLy17" target="_blank" rel="noreferrer" className ={`btn btn-primary d-block w-auto`}>Register Now</a>
                 </div>
             </div>
         </section>
-     );
+    );
 }
  
 export default About;
