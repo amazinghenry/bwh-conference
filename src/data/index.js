@@ -1,11 +1,11 @@
 const speakerData = [
-    // {
-    //     id : "1",
-    //     title : "Imelda Usoro-Olaoye (Convener)",
-    //     position : "Founder, Business Women hub",
-    //     company : "Managing Partner, Thinkmint Nigeria",
-    //     imageUrl : "imeldaolaoye.png"
-    // },
+    {
+        id : "a0",
+        title : "Imelda Usoro-Olaoye",
+        position : "Managing Partner/Founder ",
+        company : "Thinkmint Nigeria/Business Women Hub",
+        imageUrl : "imeldaolaoye.webp"
+    },
     {
         id : "a1",
         title : "Mrs Kikelomo Atanda-Owo",
