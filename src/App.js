@@ -10,6 +10,7 @@ import Topics from './components/topics/Topics';
 import SpeakerList from './components/speakers/SpeakerList';
 import EventGalleryList from './components/eventgallery/EventGalleryList';
 import Exhibition from './components/exhibition/Exhibition';
+import Convener from './components/convener/Convener';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <About />
     <Features />
     <Topics />
+    <Convener />
     <SpeakerList heading = { "Speakers" } />
     <EventGalleryList />
     <Exhibition />

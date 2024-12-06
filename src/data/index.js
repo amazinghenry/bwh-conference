@@ -1,9 +1,9 @@
 const speakerData = [
     {
         id : "a0",
-        title : "Imelda Usoro-Olaoye",
-        position : "Managing Partner/Founder ",
-        company : "Thinkmint Nigeria/Business Women Hub",
+        title : "Imelda Usoro Olaoye",
+        position : "Founder, Business Women Hub",
+        company : "Managing Partner, Thinkmint Nigeria/Europe",
         imageUrl : "imeldaolaoye.webp"
     },
     {

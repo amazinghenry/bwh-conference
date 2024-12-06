@@ -1,0 +1,35 @@
+.convenerContainer {
+    padding: 80px 0;
+}
+
+.convenerContainer h2 {
+    font-weight: 800;
+    color: var(--pri-clr-);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ConvenerGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ConvenerItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.convenerTitle {
+    color: var(--sec-clr-);
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.convenerPosition{
+    color: var(--pri-clr-);
+
+}

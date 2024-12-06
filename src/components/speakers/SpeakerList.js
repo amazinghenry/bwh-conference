@@ -4,7 +4,7 @@ import SpeakerCard from './SpeakerCard';
 
 const SpeakerList = ({heading}) => {
 
-    const SpeakerCards = speakerData.map((speaker)=> {
+    const SpeakerCards = speakerData.slice(1).map((speaker)=> {
         return <SpeakerCard
         key = {speaker.id}
         id = {speaker.id}
