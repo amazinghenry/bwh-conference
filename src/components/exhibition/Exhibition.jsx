@@ -49,10 +49,10 @@ const Exhibition = () => {
               <li className="list-group-item">
                 Access marketing and business expansion grants
               </li>
-              {/* <li className="list-group-item">
+              <li className="list-group-item">
                 Safeguarding your business and maximising your business
                 potential
-              </li> */}
+              </li>
             </ul>
           </div>
         </div>

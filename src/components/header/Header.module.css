@@ -18,6 +18,7 @@ header {
 
 .headerContainer img {
     justify-self: end;
+    width: 480px;
 }
 
 .HeaderTitle {
@@ -88,6 +89,7 @@ header {
 
     .headerContainer img {
         justify-self: center;
+        width: 100%;
     }
 
     .HeaderTitle {
