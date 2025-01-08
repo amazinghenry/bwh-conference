@@ -7,6 +7,20 @@ const speakerData = [
         imageUrl : "imeldaolaoye.webp"
     },
     {
+        id : "a01",
+        title : "Hansatu Adegbite (Guest speaker)",
+        position : "",
+        company : "",
+        imageUrl : "hansatuadegbite.png"
+    },
+    {
+        id : "a02",
+        title : "Nnena Jacob-Ogogo (Keynote speaker)",
+        position : "Group Head and Head of the Gender Desk",
+        company : "First City Monument Bank (FCMB)",
+        imageUrl : "nnenajacob.png"
+    },
+    {
         id : "a1",
         title : "Mrs Kikelomo Atanda-Owo",
         position : "CEO",
@@ -14,118 +28,76 @@ const speakerData = [
         imageUrl : "kikelomoatanda.png"
     },
     {
+        id : "a11",
+        title : "Abiola Adelana",
+        position : "Head Tourism Business",
+        company : "Sterling Bank plc",
+        imageUrl : "abiolaadelana.png"
+    },
+    {
+        id : "a12",
+        title : "Emmanuella Akinrinde",
+        position : "Digital Creator",
+        company : "",
+        imageUrl : "emmanuellaakinrinde.png"
+    },
+    {
         id : "a2",
-        title : "Gusi Tobby Lordwilliams",
-        position : "Social Impact Strategist,",
-        company : "Communitcations Expert",
+        title : "Lord gusi Tobby Holloway",
+        position : "Executive Assistant Coach,",
+        company : "ED School of Service",
         imageUrl : "gusitobby.png"
     },
     {
+        id : "a21",
+        title : "Dr. Morenike Basharu",
+        position : "CEO, Dewia Options Interior / Vice President",
+        company : "Business School Netherlands Toast Master Club",
+        imageUrl : "morenikebasharu.png"
+    },
+    {
+        id : "a22",
+        title : "Dr. Kelechi Okoro",
+        position : "@healthertainer",
+        company : "",
+        imageUrl : "kelechiokoro.png"
+    },
+    {
+        id : "a23",
+        title : "Rita Ahunanya",
+        position : "Founder",
+        company : "Crestructure Consulting",
+        imageUrl : "ritaahunanya.png"
+    },
+    {
+        id : "a24",
+        title : "Barr. Martha Rotoye,",
+        position : "Head of Governance",
+        company : "Risk and Compliance Services Pentangon Partners Legal Practitioners",
+        imageUrl : "martharotoye.png"
+    },
+    {
         id : "a3",
+        title : "Itee Akrasi",
+        position : "CEO",
+        company : "Teerasi Empire",
+        imageUrl : "iteeakrasi.png"
+    },
+    {
+        id : "a4",
         title : "Ufoma Okerentugba-Thompson",
         position : "Senior Consultant",
         company : "Centafold Consult",
         imageUrl : "ufomathompson.png"
     },
     {
-        id : "a4",
-        title : "Itee Akrasi",
+        id : "a5",
+        title : "Chidinma Amadi",
         position : "CEO",
-        company : "Teerasi Empire",
-        imageUrl : "iteeakrasi.png"
+        company : "Pama Beauty Hair",
+        imageUrl : "chidinmaamadi.png"
     },
-    // {
-    //     id : "2",
-    //     title : "Yeside Aminat Olasimbo",
-    //     position : "Special Assistant on Women Affairs to the Speaker House of Representatives",
-    //     company : "Federal Republic of Nigeria",
-    //     imageUrl : "yesideaminat.png"
-    // },
-    // {
-    //     id : "3",
-    //     title : "Mrs Ini Abimbola1",
-    //     position : "Vice President",
-    //     company : "Sustainability Professionals Institute of Nigeria",
-    //     imageUrl : "iniabimbola.png"
-    // },
-    // {
-    //     id : "4",
-    //     title : "Abiola Adelana",
-    //     position : "Head Tourism and creative Art Business",
-    //     company : "Sterling Bank plc",
-    //     imageUrl : "abiolaadelana.png"
-    // },
-    // {
-    //     id : "5",
-    //     title : "Gusi Tobby Lordwilliams",
-    //     position : "Social Impact Strategist,",
-    //     company : "Communitcations Expert",
-    //     imageUrl : "gusitobby.png"
-    // },
-    // {
-    //     id : "6",
-    //     title : "Olubunmi Ebhomenye",
-    //     position : "Director",
-    //     company : "Talent Academy, Flour Mills Nigeria",
-    //     imageUrl : "olubunmi.png"
-    // },
-    // {
-    //     id : "7",
-    //     title : "Ubong Ita",
-    //     position : "CEO & Co-Founder",
-    //     company : "Konoaccountant / etiaba",
-    //     imageUrl : "ubongita.png"
-    // },
-    // {
-    //     id : "8",
-    //     title : "Ella Ezeadilieje PhD",
-    //     position : "Story Teller, Brand Strategist Influencer",
-    //     company : "",
-    //     imageUrl : "eze.png"
-    // },
-    // {
-    //     id : "9",
-    //     title : "Ayo Bankole",
-    //     position : "Strategy & Transformation Professional",
-    //     company : "Caladium Consulting",
-    //     imageUrl : "ayobankole.png"
-    // },
-    // {
-    //     id : "10",
-    //     title : "Sarah Samuel Amana",
-    //     position : "Personal Finance Expert",
-    //     company : "",
-    //     imageUrl : "sarah.png"
-    // },
-    // {
-    //     id : "11",
-    //     title : "Hussaina Yakubu",
-    //     position : "Motivational Speaker, Founder",
-    //     company : "Hussy Foods",
-    //     imageUrl : "hussaina.png"
-    // },
-    // {
-    //     id : "12",
-    //     title : "Mosunmola Nicole E.",
-    //     position : "Chief Experience Officer",
-    //     company : "IPC-Event Nigeria",
-    //     imageUrl : "mosunmola.png"
-    // },
-    // {
-    //     id : "13",
-    //     title : "Linda Ogbugbua",
-    //     position : "Head, Digital Advert Business Day/SME Business Expert",
-    //     company : "IPC-Event Nigeria",
-    //     imageUrl : "linda.png"
-    // },
-    // {
-    //     id : "14",
-    //     title : "Emem Attah",
-    //     position : "MC",
-    //     company : "",
-    //     imageUrl : "emem.png"
-    // },
-
+ 
 ]
 
 
